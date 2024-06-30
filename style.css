@@ -1,0 +1,188 @@
+@charset "utf-8"
+*{
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+
+
+}
+
+body{
+        height: 100hv;
+    margin: 0px;
+    padding: 0px;
+    background-color: darkgray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.8;
+
+}
+header{
+    
+        color:#FFFFFF;
+         background-color:black ;
+         padding: 0px;
+         margin: 0px;
+        font-size: 1em;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    
+}
+main{
+
+     background-color: #FFFFFF;
+        height: 100%;
+        padding: 10px;
+        margin: 0px;
+}
+
+
+header>h1{
+        text-align: center;
+
+}
+header>h2{
+
+    text-align: center;
+}
+ 
+a{
+    margin-right: 10px;
+    color: #FFFFFF;
+}
+a:hover{
+
+            color: blue;
+    
+}
+
+.b1{
+    color: blue;
+}
+
+
+.a1{
+        background: black url('imagens/saladeaula.jpg') bottom right no-repeat fixed;
+        background-size: cover;
+        height: 450px;
+        border-radius: 8px;
+        padding: 10px;
+}
+
+.a01{
+    color: #FFFFFF;
+    background-color: #000E00;
+    width: 300px;
+    height: 350px;
+    display: block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 0px black;
+    margin: 20px 30px;
+    font-size: 1.6em;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+}
+
+.a0{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    font-display: block;
+}
+.a02{
+    color: #FFFFFF;
+    background-color: #000E00;
+    width: 300px;
+    height: 350px;
+    display: block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 0px black;
+    margin: 20px 30px;
+    font-size: 1.6em;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+}
+
+
+
+
+.a03{
+    color: #FFFFFF;
+    background-color: #000E00;
+    width: 300px;
+    height: 350px;
+    display: block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 0px black;
+    margin: 20px 30px;
+    font-size: 1.6em;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+
+    margin-top: 20px;
+}
+
+
+.a3{
+    background: black url('imagens/faveicon.jpg') bottom right no-repeat fixed;
+    background-size: cover;
+    height: 450px;
+    border-radius: 8px;
+    padding: 10px;
+    
+
+
+}
+
+.art1{
+    color: #FFFFFF;
+    background-color: #000E00;
+   
+    display: block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 0px black;
+    margin: 20px 0px;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+
+
+
+
+}
+
+.art{
+    
+    background: black url('imagens/mestrenamontanha.jpg') bottom right no-repeat fixed;
+    background-size: cover;
+    height: 450px;
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 40px;
+
+
+}
+
+
+
+
+
+
+.rodape{
+    color: #FFFFFF;
+    background-color: #000E00;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 0px black;
+    margin: 20px 30px;
+    font-size: 1.6em;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+
+
+}
+
+
+
