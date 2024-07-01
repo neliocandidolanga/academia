@@ -2,10 +2,10 @@
 
 
 *{
-    width: 100%;
+    
     margin: 0px;
     padding: 0px;
-    height: 100vh;
+    
     
 
 }
@@ -22,10 +22,9 @@ html,body{
 }
 
 
-body{
 
-    background-attachment: fixed;
-}
+
+
 
 header{
         background-color: black;
@@ -156,10 +155,10 @@ section>p{
 }
 
 .imagem1>p,.imagem2>p{
-            background-color: rgba(15, 15, 15, 0.637);
+            background-color: rgba(2, 2, 2, 0.637);
             display: inline-block;
             
-            font-size: 1.5em;
+            font-size: 1.4em;
             padding: 10px;
             
             
