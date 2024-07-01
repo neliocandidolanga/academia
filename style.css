@@ -1,188 +1,190 @@
-@charset "utf-8"
+@charset "utf-8";
+
+
 *{
-    height: 100%;
+    min-height: 100%;
     margin: 0px;
     padding: 0px;
+
+}
+
+html,body{
+            background-color: darkgray;
+            color: white;
+            min-height: 100vh;
+            margin: 0px;
+            padding: 0px;
 
 
 }
 
-body{
-        height: 100hv;
-    margin: 0px;
-    padding: 0px;
-    background-color: darkgray;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 1.8;
-
-}
 header{
-    
-        color:#FFFFFF;
-         background-color:black ;
-         padding: 0px;
-         margin: 0px;
-        font-size: 1em;
-        padding-top: 5px;
-        padding-bottom: 5px;
-    
-}
-main{
-
-     background-color: #FFFFFF;
-        height: 100%;
-        padding: 10px;
-        margin: 0px;
-}
-
-
-header>h1{
+        background-color: black;
+        color: white;
+        padding-top: 50px;
+        
         text-align: center;
+        text-transform: uppercase;
+
+
 
 }
-header>h2{
-
-    text-align: center;
-}
- 
-a{
-    margin-right: 10px;
-    color: #FFFFFF;
-}
-a:hover{
-
-            color: blue;
-    
+header > p{
+             padding-bottom: 30px;
+             padding-top: 30px;
+             text-decoration: solid;
 }
 
-.b1{
-    color: blue;
+header > h1{
+                
+            
+                
+
 }
 
-
-.a1{
-        background: black url('imagens/saladeaula.jpg') bottom right no-repeat fixed;
-        background-size: cover;
-        height: 450px;
-        border-radius: 8px;
-        padding: 10px;
-}
-
-.a01{
-    color: #FFFFFF;
-    background-color: #000E00;
-    width: 300px;
-    height: 350px;
-    display: block;
-    padding: 5px;
-    background-color: rgba(0, 0, 0, 0.514);
-    text-shadow: 1px 1px 0px black;
-    margin: 20px 30px;
-    font-size: 1.6em;
-    font-family: Arial, Helvetica, sans-serif;
-    border-radius: 5px;
-}
-
-.a0{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.5em;
-    font-display: block;
-}
-.a02{
-    color: #FFFFFF;
-    background-color: #000E00;
-    width: 300px;
-    height: 350px;
-    display: block;
-    padding: 5px;
-    background-color: rgba(0, 0, 0, 0.514);
-    text-shadow: 1px 1px 0px black;
-    margin: 20px 30px;
-    font-size: 1.6em;
-    font-family: Arial, Helvetica, sans-serif;
-    border-radius: 5px;
-}
-
-
-
-
-.a03{
-    color: #FFFFFF;
-    background-color: #000E00;
-    width: 300px;
-    height: 350px;
-    display: block;
-    padding: 5px;
-    background-color: rgba(0, 0, 0, 0.514);
-    text-shadow: 1px 1px 0px black;
-    margin: 20px 30px;
-    font-size: 1.6em;
-    font-family: Arial, Helvetica, sans-serif;
-    border-radius: 5px;
-
+nav{
+    text-align: left;
     margin-top: 20px;
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+    
+}
+
+a{
+        text-decoration: solid;
+        color: blue;
+        margin-right: 20px;
+    
+
 }
 
 
-.a3{
-    background: black url('imagens/faveicon.jpg') bottom right no-repeat fixed;
-    background-size: cover;
-    height: 450px;
-    border-radius: 8px;
-    padding: 10px;
+a:hover{
+            text-decoration: underline;
+            
+            color: white;
+
+}
+
+
+
+    
+            
+
+
+
+
+
+section{
+            padding-top: 30px;
+            padding-bottom: 30px;
+            line-height: 2em;
+            text-align: justify;
+            font-family: Arial, Helvetica, sans-serif;
+            
+    
+        
+
     
 
 
 }
 
-.art1{
-    color: #FFFFFF;
-    background-color: #000E00;
-   
-    display: block;
-    padding: 5px;
-    background-color: rgba(0, 0, 0, 0.514);
-    text-shadow: 1px 1px 0px black;
-    margin: 20px 0px;
-    font-size: 1.5em;
-    font-family: Arial, Helvetica, sans-serif;
-    border-radius: 5px;
+.introd{
+            background-color: rgb(53, 52, 52);
 
+
+}
+
+strong{
+    border-radius: 20px;
+}
+
+
+
+strong>p{
+            padding-left: 10px;
+            padding-right: 10px;
+            background-color: rgba(37, 37, 37, 0.438);
+            color: white;
+            font-size: 1.4em;
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: solid;
+            border-radius: 15px;
+        
+           
+}
+
+       
+
+section>p{
+            padding: 10px;
+            margin-right: px;
+            margin-left: px;
+            padding-left: 10px;
+}
+
+.normal{
+            background-color: white;
+            color: black;
+            text-align: justify;
+
+
+}
+
+.normal>p{
+            font-size: 1.3em;
+
+}
+
+.imagem1,.imagem2{
+            padding-top: 50px;
+            padding-bottom: 50px;
+            background-color: rgb(53, 51, 51);
+            height: 250px;
+            
+
+}
+
+.imagem1>p,.imagem2>p{
+            background-color: rgba(15, 15, 15, 0.637);
+            width: 500px;
+            height: 250px;
+            font-size: 1.5em;
+            padding: 10px;
+            margin-left: 20px;
+            
 
 
 
 }
 
-.art{
-    
-    background: black url('imagens/mestrenamontanha.jpg') bottom right no-repeat fixed;
+.imagem1{
+
+            background: black url('imagens/saladeaula.jpg')  bottom right no-repeat fixed;
+            background-size: cover;
+
+}
+
+.imagem2{
+    background: black url('imagens/fundo.jpg')  bottom right no-repeat fixed;
     background-size: cover;
-    height: 450px;
-    border-radius: 8px;
-    padding: 10px;
-    margin-top: 40px;
 
+}
+
+
+footer{
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-size: 1.3em;
 
 }
 
 
 
-
-
-
-.rodape{
-    color: #FFFFFF;
-    background-color: #000E00;
-    padding: 5px;
-    background-color: rgba(0, 0, 0, 0.514);
-    text-shadow: 1px 1px 0px black;
-    margin: 20px 30px;
-    font-size: 1.6em;
-    font-family: Arial, Helvetica, sans-serif;
-    border-radius: 5px;
-
-
-}
 
 
 
